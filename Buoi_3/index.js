@@ -28,7 +28,7 @@ let myInfo = {
 
 // Vòng lặp for bình thường
 for (let index = 0; index < langs.length; index++) {
-    console.log("Vị trí thứ " + index + "là phần tử " + langs[index]);
+    console.log("Vị trí thứ " + index + " là phần tử " + langs[index]);
 }
 
 // For-in
