@@ -65,8 +65,7 @@ function renderTodoList() {
     let htmls = "";
 
     for (let i = 0; i < todoList.length; i++){
-        htmls = htmls + todoList[i]
-        // html += todoList[1]
+      htmls += "<li>" + todoList[i] + "</li>";
     }
 
     todoContainer.innerHTML = htmls;
