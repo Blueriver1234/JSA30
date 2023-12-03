@@ -1,8 +1,9 @@
 .product-containter {
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .product-item {
-    width: 20%;
+    width: 30%;
 }
 .product-item img {
     width: 100%;
