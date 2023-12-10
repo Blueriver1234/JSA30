@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 50px auto;
+    width: 1140px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.member {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.member-item {
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px;
+}
+.member-title {
+    height: 30%;
+}
+.member-image {
+    height: 70%;
+}
+.member-image img {
+    width: 100%;
+}
+
+
+
+

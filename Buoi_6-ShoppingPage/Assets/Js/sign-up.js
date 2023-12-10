@@ -25,6 +25,21 @@ function handleSignUp(event) {
     let password = passwordInput.value;
     let passwordRepeat = passwordRepeatInput.value;
 
+    // Kiểm tra xem đã điền đủ các trường thông tin hay chưa
+    // Chỉ cần thiếu 1 trong các trường hợp thì báo lỗi
+    // ! -> ngược lại
+    if (!fullName || !dateOfBirth || !email || !phone || !password || !passwordRepeat) {
+        alert("Please fill all field")
+        
+        // Khi lỗi thì dừng hàm, không chạy tiếp code bên dưới
+        return;
+    }
+    // Kiểm tra mật khẩu có khớp hay không
+    if(password != passwordRepeat) {
+        alert("Password is not match");
+        return;
+    }
+
     // Gói các thuộc tính trên vào trong object accountData
     let accountData = {
         fullName,
